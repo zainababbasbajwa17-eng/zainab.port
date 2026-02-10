@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- 
+      For seo purposes
+     -->
+  <meta name="keywords" content="Obaid Portfolio" />
+  <meta name="description"
+    content="Portfolio of MOhsin Khan, a MERN stack developer with experience in LMS, e-commerce, and travel UI/UX projects." />
+  <!-- 
+       Favicon
+     -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon" />
+  <!-- 
+       Title
+     -->
+  <title>Zainab Abbas Bajwa - Portfolio</title>
+  <!--
+     Taiwind css cdn
+     -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!--
+     Custo css
+     -->
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+  <!--
+     Font Awesome CDN
+     -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+</head>
+
+<body class="w-screen h-auto">
+  <!-- 
+    Modal
+   -->
+  <div id="modal" class="hidden w-full h-screen fixed top-0 left-0 z-50 justify-center items-center">
+    <div
+      class="sidebar_animation flex justify-center items-center w-[670px] h-[250px] section-border bg-[#202021] rounded-2xl">
+      <div class="w-[25%] h-full flex justify-center items-start">
+        <div class="mt-10 section-border w-[60px] xl:w-[80px] h-[60px] xl:h-[80px] bg-[#383839] rounded-2xl">
+          <img src="./assets/images/avatar-1.png" alt="avatar" />
+        </div>
+      </div>
+      <div class="w-[75%] pr-5 relative">
+        <i id="close_modal" class="cursor-pointer fa-solid fa-close text-white absolute right-7 top-[-5px]"></i>
+        <h1 class="text-white text-[1.7rem] font-semibold"></h1>
+        <p class="text-[#bababa] text-[1.05rem] font-semibold pt-1"></p>
+        <p class="text-white text-[0.95rem] pt-2"></p>
+      </div>
+    </div>
+  </div>
+  <!-- 
+    Starting Point
+   -->
+  <main
+    class="w-full h-auto flex flex-col xl:flex-row justify-center items-center xl:items-start gap-3 sm:gap-4 xl:gap-6 xl:py-12 py-6 pb-10 xl:pb-12">
+    <!-- 
+          Sidebar
+       -->
+    <aside
+      class="w-[94%] md:w-[75%] xl:w-[22%] h-auto xl:h-[130vh] section-border backdrop-blur rounded-2xl xl:sticky xl:top-[50px] bg-[#1E1E1F] overflow-hidden">
+      <div
+        class="relative xl:static h-auto xl:h-[350px] flex xl:flex-col xl:justify-center items-center gap-4 pt-5 pb-6 xl:pb-0 pl-5 xl:pl-0">
+        <button class="absolute xl:static text-sm text-[#f3da4e] font-semibold right-[15px] top-[7px] xl:hidden"
+          id="hamburger">
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+        <div class="mt-3 xl:mt-0 w-[80px] xl:w-[130px] h-[50px] xl:h-[160px] bg-[#383839] rounded-2xl xl:rounded-[30px] overflow-hidden">
+  <img class="w-full h-full object-cover object-top" src="./assets/images/img1.jpeg" alt="Zainab Abbas" />
+</div>
+        <div class="flex flex-col justify-center xl:items-center gap-2 xl:gap-4 pt-4">
+          <h1 class="text-[1.17rem] text-white sm:text-[1.45rem] xl:text-[1.6rem] font-semibold">
+            Zainab Abbas Bajwa
+          </h1>
+          <div
+            class="w-[115px] sm:w-[130px] p-[6px] bg-[#2B2B2C] text-xs font-semibold text-white rounded-xl text-center shadow-xl">
+            CS Student & Developer
+          </div>
+        </div>
+      </div>
+      <div class="hidden xl:block sidebar_animation" id="sidebar_menu">
+        <div>
+          <div class="flex justify-center items-center">
+            <div class="w-[75%] section-border"></div>
+          </div>
+          <div class="w-full h-[270px] flex-col justify-between xl:items-center mt-9 pl-5 flex">
+            <div class="mb-5 xl:mb-0">
+              <div class="w-[250px] flex items-center justify-start gap-4">
+                <div
+                  class="w-[50px] h-[50px] bg-[#202022] rounded-2xl flex justify-center items-center section-border shadow-xl">
+                  <img class="w-[40%]" src="./assets/images/icon-app.svg" alt="avatar" />
+                </div>
+                <div>
+                  <h6 class="text-gray-300 text-sm">Email</h6>
+                  <p class="text-white text-xs">zainababbasbajwa11@gmail.com</p>
+                </div>
+              </div>
+            </div>
+            <div class="mb-5 xl:mb-0">
+              <div class="w-[250px] flex items-center justify-start gap-4">
+                <div
+                  class="w-[50px] h-[50px] bg-[#202022] rounded-2xl flex justify-center items-center section-border shadow-xl">
+                  <img class="w-[40%]" src="./assets/images/icon-design.svg" alt="avatar" />
+                </div>
+                <div>
+                  <h6 class="text-gray-300 text-sm">Phone</h6>
+                  <p class="text-white text-xs">0325-6287800</p>
+                </div>
+              </div>
+            </div>
+            <div class="mb-5 xl:mb-0">
+              <div class="w-[250px] flex items-center justify-start gap-4">
+                <div
+                  class="w-[50px] h-[50px] bg-[#202022] rounded-2xl flex justify-center items-center section-border shadow-xl">
+                  <img class="w-[40%]" src="./assets/images/icon-design.svg" alt="avatar" />
+                </div>
+                <div>
+                  <h6 class="text-gray-300 text-sm">Languages</h6>
+                  <p class="text-white text-xs">English, Urdu, Punjabi</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-5 xl:mb-0">
+              <div class="w-[250px] flex items-center justify-start gap-4">
+                <div
+                  class="w-[50px] h-[50px] bg-[#202022] rounded-2xl flex justify-center items-center section-border shadow-xl">
+                  <img class="w-[40%]" src="./assets/images/icon-dev.svg" alt="avatar" />
+                </div>
+                <div>
+                  <h6 class="text-gray-300 text-sm">Address</h6>
+                  <p class="text-white text-xs">Paris Road, Sialkot</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-center items-center mt-5 xl:mt-8">
+          <div class="w-[75%] section-border"></div>
+        </div>
+        <div class="w-full flex justify-center items-center gap-[20px] xl:gap-5 xl:mt-5 py-7 xl:py-2">
+          <a href="https://www.linkedin.com/feed/" target="_blank">
+            <i class="fa-brands fa-linkedin text-gray-300 text-xl hover:text-[#E5C567]"></i>
+          </a>
+          <a href="https://www.instagram.com/zainab_bajwa17?igsh=MXB0MDhzdWYzMzlhMQ==" target="_blank">
+            <i class="fa-brands fa-instagram text-gray-300 text-xl hover:text-[#E5C567]"></i>
+          </a>
+          <a href="https://www.tiktok.com/@zeenbey_17?_r=1&_t=ZS-93oFElwQ6Cb" target="_blank">
+            <i class="fa-brands fa-tiktok text-gray-300 text-xl hover:text-[#E5C567]"></i>
+          </a>
+        </div>
+      </div>
+    </aside>
+    <!-- 
+           Main
+       -->
+    <section
+      class="about w-[94%] md:w-[75%] xl:w-[70%] h-[auto] section-border rounded-2xl static xl:relative overflow-hidden mb-7 xl:mb-0 bg-[#1E1E1F]">
+      <!-- 
+            Menu
+        -->
+      <nav
+        class="w-full xl:w-[450px] h-[60px] section-border bg-[#282829] rounded-2xl fixed bottom-0 right-0 xl:absolute xl:right-[-10px] xl:top-[-5px] xl:block z-40 flex justify-center items-center md:px-3">
+        <ul
+          class="w-full h-full flex gap-4 xl:gap-7 justify-center xl:justify-around items-center pl-6 xl:pl-4 pr-5 pt-5 pb-6">
+          <button data-nav-link="about">
+            <li class="text-gray-200 text-[0.8rem] xl:text-[0.9rem] font-semibold hover:text-[#E5C567]">
+              About
+            </li>
+          </button>
+          <button data-nav-link="resume">
+            <li class="text-gray-200 text-[0.8rem] xl:text-[0.9rem] font-semibold hover:text-[#E5C567]">
+              Resume
+            </li>
+          </button>
+          <button data-nav-link="skills">
+            <li class="text-gray-200 text-[0.8rem] xl:text-[0.9rem] font-semibold hover:text-[#E5C567]">
+              Skills
+            </li>
+          </button>
+
+          <button data-nav-link="portfolio">
+            <li class="text-gray-200 text-[0.8rem] xl:text-[0.9rem] font-semibold hover:text-[#E5C567]">
+              Portfolio
+            </li>
+          </button>
+
+          <button data-nav-link="contact">
+            <li class="text-gray-200 text-[0.8rem] xl:text-[0.9rem] font-semibold hover:text-[#E5C567]">
+              Contact
+            </li>
+          </button>
+        </ul>
+      </nav>
+      <!-- 
+          About
+        -->
+      <article data-page="about" class="sidebar_animation backdrop-blur">
+        <div class="w-[95%] pl-4 xl:pl-8 pt-4 md:pt-9">
+          <h1 class="text-[1.35rem] xl:text-[1.9rem] font-bold text-white">
+            About Me
+          </h1>
+          <div class="w-[50px] style-border mt-2 rounded-2xl"></div>
+          <p class="text-base md:text-[1.01rem] font-medium text-[#dcdada] pt-7 pb-4 leading-6">
+            CS Graduate and aspiring Master's student with passion for Web Development and Digital Content Creation. 
+            Experienced in social media marketing, SEO content writing, and full-stack development through professional internships.
+          </p>
+          <p class="text-base md:text-[1.01rem] font-medium text-[#dcdada] leading-6">
+            I love creating engaging digital content and building responsive web experiences. My journey combines technical development skills with creative marketing expertise. When not working, you might find me editing videos, capturing photography moments, reading, or cooking.
+          </p>
+        </div>
+        <!-- 
+           Services
+          -->
+        <div class="xl:pl-8 px-1 md:px-0 pt-5">
+          <h1 class="text-[1.25rem] xl:text-[1.5rem] font-bold text-white pl-4 xl:pl-0 md:mt-2">
+            What I'm Doing
+          </h1>
+          <div class="mt-8 flex items-center flex-col xl:flex-row gap-5 text-[#212123]">
+            <div class="w-[98%] xl:w-[420px] h-[140px] flex justify-center items-center rounded-2xl skill-border">
+              <div class="w-[90px] md:w-[25%] flex justify-end pb-9 pr-5">
+                <img class="w-1/2 md:w-[30%]" src="./assets/images/icon-dev.svg" alt="name" />
+              </div>
+              <div class="w-[75%] pr-3 pb-1">
+                <h4 class="text-white xl:text-[1.15rem] font-medium">
+                  Frontend Development
+                </h4>
+                <p class="text-[0.9rem] font-medium text-[#c7c5c5] pt-1">
+                  The most modern and high-quality design made at a
+                  professional level
+                </p>
+              </div>
+            </div>
+            <div class="w-[98%] xl:w-[420px] h-[140px] flex justify-center items-center rounded-2xl skill-border">
+              <div class="w-[90px] md:w-[25%] flex justify-end pb-9 pr-5">
+                <img class="w-1/2 md:w-[30%]" src="./assets/images/icon-design.svg" alt="name" />
+              </div>
+              <div class="w-[75%] pr-3 pb-1">
+                <h4 class="text-white xl:text-[1.15rem] font-medium">
+                  Backend Development
+                </h4>
+                <p class="text-[0.9rem] font-medium text-[#c7c5c5] pt-1">
+                  The modern and high-quality application made at a
+                  professional level
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="mt-5 flex gap-5 items-center flex-col xl:flex-row">
+            <div class="w-[98%] xl:w-[420px] h-[140px] flex justify-center items-center rounded-2xl skill-border">
+              <div class="w-[90px] md:w-[25%] flex justify-end pb-9 pr-5">
+                <img class="w-1/2 md:w-[30%]" src="./assets/images/icon-dev.svg" alt="name" />
+              </div>
+              <div class="w-[75%] pr-3 pb-1">
+                <h4 class="text-white xl:text-[1.15rem] font-medium">
+                  Fullstack Development
+                </h4>
+                <p class="text-[0.9rem] font-medium text-[#c7c5c5] pt-1">
+                  The modern and high-quality application made at a
+                  professional level
+                </p>
+              </div>
+            </div>
+            <div class="w-[98%] xl:w-[420px] h-[140px] flex justify-center items-center rounded-2xl skill-border">
+              <div class="w-[90px] md:w-[25%] flex justify-end pb-9 pr-5">
+                <img class="w-1/2 md:w-[30%]" src="./assets/images/icon-design.svg" alt="name" />
+              </div>
+              <div class="w-[75%] pr-3 pb-1">
+                <h4 class="text-white xl:text-[1.15rem] font-medium">
+                  Web Design
+                </h4>
+                <p class="text-[0.9rem] font-medium text-[#c7c5c5] pt-1">
+                  The most modern and high-quality design made at a
+                  professional level
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- 
+              Testimonials
+             -->
+          <div class="px-1 xl:pl-3 pt-10 pb-10">
+            <h1 class="text-[1.25rem] xl:text-[1.5rem] font-bold text-white pl-4 xl:pl-0">
+              Testimonials
+            </h1>
+            <div id="testimonial_section" class="flex gap-7 overflow-x-auto has-scrollbar pb-8">
+              <!-- Card Dynamically with Javascrpit -->
+            </div>
+          </div>
+        </div>
+      </article>
+      <!-- 
+        Resume
+       -->
+      <article data-page="resume" id="resume" class="sidebar_animation backdrop-blur">
+        <div class="max-w-4xl mx-auto px-4 md:p-8 shadow-lg mt-6 md:mt-10">
+          <header class="mb-8">
+            <h1 class="text-xl md:text-4xl font-bold">Zainab Abbas Bajwa</h1>
+            <p class="text-lg text-white py-1">zainababbasbajwa11@gmail.com</p>
+            <p class="text-lg">
+              <a target="_blank" href='https://www.linkedin.com/feed/'
+                class="text-[#E5C567] font-semibold">LinkedIn Profile</a>
+              |
+              <a target="_blank" href="https://www.instagram.com/zainab_bajwa17?igsh=MXB0MDhzdWYzMzlhMQ==" class="text-[#E5C567] font-semibold">Instagram
+                Profile</a>
+            </p>
+          </header>
+          <section class="mb-8">
+            <h2 class="text-xl font-bold border-b-2 border-gray-300 pb-2 mb-4">
+              Objective
+            </h2>
+            <p>
+              Passionate CS graduate and aspiring Master's student seeking to leverage Web Development expertise gained through internships in social media marketing, SEO content writing, and full-stack development. Proficient in HTML, CSS, JavaScript, and full-stack technologies. Dedicated to creating innovative web solutions with strong commitment to continuous learning and professional growth.
+            </p>
+          </section>
+          <section class="mb-8">
+            <h2 class="text-xl font-bold border-b-2 border-gray-300 pb-2 mb-4">
+              Education
+            </h2>
+            <p>
+              <strong>Master of Science in Computer Science</strong>
+            </p>
+            <p>2024 - 2026 (In Progress)</p>
+            <br/>
+            <p>
+              <strong>Bachelor of Science in Computer Science</strong>
+            </p>
+            <p>2020 - 2024</p>
+          </section>
+          <section class="mb-8">
+            <h2 class="text-xl font-bold border-b-2 border-gray-300 pb-2 mb-4">
+              Experience
+            </h2>
+
+            <div class="mb-4">
+              <h3 class="text-[1.03rem] font-semibold">
+                Full Stack Development Intern
+              </h3>
+              <p><strong>Company:</strong> PSEB</p>
+              <p><strong>Duration:</strong> 6 months (2024-2025)</p>
+              <p>
+                <strong>Description:</strong> Developing full-stack web applications using modern technologies. Gaining hands-on experience in both frontend and backend development, working with databases, and implementing RESTful APIs.
+              </p>
+            </div>
+            <div class="mb-4">
+              <h3 class="text-[1.03rem] font-semibold">
+                Content Writer & SEO Specialist
+              </h3>
+              <p><strong>Company:</strong> SEO Sialkot Company</p>
+              <p><strong>Duration:</strong> 3-4 months</p>
+              <p>
+                <strong>Description:</strong> Created SEO-optimized content for web platforms, improved website ranking, and implemented SEO best practices to increase online visibility.
+              </p>
+            </div>
+            <div class="mb-4">
+              <h3 class="text-[1.03rem] font-semibold">
+                Social Media Marketing Intern
+              </h3>
+              <p><strong>Company:</strong> Dyna International Company</p>
+              <p><strong>Duration:</strong> 6 months</p>
+              <p>
+                <strong>Description:</strong> Managed social media campaigns, created engaging content, analyzed audience metrics, and developed marketing strategies to increase brand awareness and engagement.
+              </p>
+            </div>
+          </section>
+          <section class="mb-8">
+            <h2 class="text-xl font-bold border-b-2 border-gray-300 pb-2 mb-4">
+              Skills
+            </h2>
+            <ul class="list-disc ml-5">
+              <li>
+                <strong>Frontend Development:</strong> HTML, CSS, JavaScript, Tailwind CSS
+              </li>
+              <li>
+                <strong>Backend Development:</strong> JavaScript, Basic APIs
+              </li>
+              <li>
+                <strong>Content Creation:</strong> SEO Writing, Social Media Content, Video Editing
+              </li>
+              <li>
+                <strong>Tools:</strong> Git, GitHub, Visual Studio Code
+              </li>
+              <li>
+                <strong>Soft Skills:</strong> Communication, Problem-Solving, Team Collaboration, Time Management, Content Writing
+              </li>
+            </ul>
+          </section>
+          <section class="mb-8">
+            <h2 class="text-xl font-bold border-b-2 border-gray-300 pb-2 mb-4">
+              Connect With Me
+            </h2>
+            <ul class="list-disc ml-5">
+              <li>
+                <a target="_blank" href="https://www.linkedin.com/feed/" class="text-[#E5C567] font-semibold">LinkedIn Profile</a>
+              </li>
+              <li>
+                <a target="_blank" href="https://www.instagram.com/zainab_bajwa17?igsh=MXB0MDhzdWYzMzlhMQ=="
+                  class="text-[#E5C567] font-semibold">Instagram</a>
+              </li>
+              <li>
+                <a target="_blank" href="https://www.tiktok.com/@zeenbey_17?_r=1&_t=ZS-93oFElwQ6Cb"
+                  class="text-[#E5C567] font-semibold">TikTok</a>
+              </li>
+            </ul>
+          </section>
+          <section class="mb-8">
+            <h2 class="text-xl font-bold border-b-2 border-gray-300 pb-2 mb-4">
+              Additional Information
+            </h2>
+            <ul class="list-disc ml-5">
+              <li><strong>Languages:</strong> English, Urdu</li>
+              <li>
+                <strong>Hobbies:</strong> Coding Challenges, Punjabi</li>
+              <li>
+                <strong>Hobbies:</strong> Video Editing, Photography, Reading, Cooking
+          </section>
+        </div>
+      </article>
+      <!-- 
+           Portfolio
+        -->
+      <article class="sidebar_animation backdrop-blur p-4" data-page="portfolio">
+        <div class="w-[95%] pl-6 xl:pl-8 pt-5 md:pt-9">
+          <h1 class="text-[1.3rem] xl:text-[1.9rem] font-bold text-white">
+            My Portfolio
+          </h1>
+          <div class="w-[50px] style-border mt-2 rounded-2xl"></div>
+        </div>
+        <div id="portfolio_section" class="w-full flex flex-wrap justify-around items-center mt-10 xl:gap-0 gap-10">
+          <!-- 
+            Projects Come Dynamicaly
+          -->
+        </div>
+      </article>
+      <!-- 
+           Skills
+         -->
+      <article data-page="skills" class="sidebar_animation backdrop-blur">
+        <div class="w-[95%] pl-6 xl:pl-8 pt-5 md:pt-9">
+          <h1 class="text-[1.3rem] xl:text-[1.9rem] font-bold text-white">
+            My Skills
+          </h1>
+          <div class="w-[50px] style-border mt-2 rounded-2xl"></div>
+        </div>
+        <div class="pl-2 xl:pl-6 pt-2">
+          <div id="skills_section" class="mt-8 flex items-center flex-wrap gap-5 g-[#212123] pb-7">
+            <!-- 
+               Skills Card here dynamically with Javascript
+             -->
+          </div>
+        </div>
+      </article>
+      <!-- 
+          Contact
+       -->
+      <article data-page="contact" class="sidebar_animation backdrop-blur">
+        <div class="w-[95%] pl-6 xl:pl-8 pt-5 md:pt-9">
+          <h1 class="text-[1.3rem] xl:text-[1.9rem] font-bold text-white">
+            Contact me
+          </h1>
+
+          <div class="w-[50px] style-border rounded-2xl mt-2"></div>
+        </div>
+        <!-- 
+           Contact Form Section
+         -->
+        <div class="w-full flex flex-col justify-around items-center mt-4">
+          <div class="w-[95%] h-[300px] mt-7 rounded-2xl overflow-hidden section-border">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3341.6819234567!2d74.5303!3d32.4945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38d91e4c5c5c5c5d%3A0x5c5c5c5c5c5c5c5c!2sSialkot%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1722944397845"
+              height="450" class="w-full" loading="lazy"></iframe>
+          </div>
+          <div class="w-[95%] h-auto xl:h-auto mt-9 mb-4">
+            <!-- 
+               Contact Form 
+             -->
+            <form>
+              <div class="flex flex-col xl:flex-row justify-around gap-3 mb-4">
+                <input
+                  class="bg-transparent section-border text-white inline-block w-full xl:w-[48%] p-3 text-sm rounded-2xl"
+                  type="text" placeholder="Username" />
+                <input
+                  class="bg-transparent section-border text-white inline-block w-full xl:w-[48%] p-3 text-sm rounded-2xl"
+                  type="email" placeholder="Email" />
+              </div>
+              <textarea
+                class="h-60 bg-transparent section-border text-white inline-block w-full pt-4 pl-5 text-sm rounded-2xl"
+                placeholder="Message"></textarea>
+              <div class="w-full flex justify-center xl:justify-end items-center mt-3">
+                <button class="text-white w-[97%] xl:w-[200px] section-border py-3 bg-[#fbc05a] text-base rounded-xl">
+                  Send
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+  <!-- 
+      JavaScript
+    -->
+  <script src="./assets/js/index.js" type="module"></script>
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
+
+<!-- 
+  End of Html
+
+  Alot of ❣
+ -->
